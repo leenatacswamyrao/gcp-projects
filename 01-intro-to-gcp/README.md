@@ -3,10 +3,10 @@
 **Lab:** A Tour of Google Cloud Hands-on Labs  
 **Platform:** Google Cloud Skills Boost (Qwiklabs)  
 **Date Completed:** April 2026  
-**Status:** ✅ Done
+**Status:** Incomplete due to lab unavailability
 
 ## What I Did
-- Navigated the GCP Console for the first time
+- Navigated the GCP Console
 - Used Cloud Shell to run gcloud commands
 - Explored IAM, Projects, and Billing concepts
 
