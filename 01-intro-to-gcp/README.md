@@ -23,7 +23,10 @@ gcloud config set project [PROJECT_ID]
 - How IAM roles control access to resources
 
 ## Screenshots
-*(Add screenshots from the lab here)*
+![Auth List](01-intro-to-gcp/gcloud-auth-list.png)
+![Config List Project](01-intro-to-gcp/gcloud-config-list-project.png)
+![Projects](01-intro-to-gcp/gcloud-projects.png)
+
 
 ## Resources
 - [Google Cloud Skills Boost](https://cloudskillsboost.google)
