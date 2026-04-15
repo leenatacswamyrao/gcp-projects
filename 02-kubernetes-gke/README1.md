@@ -30,3 +30,47 @@
 
 ## Screenshots
 - [Include screenshot files]
+
+# Google Cloud Platform Projects
+
+## Project 1: GKE Deployments (April 10, 2026)
+
+### Overview
+Deployed applications to Google Kubernetes Engine using declarative YAML configurations.
+
+### Labs Completed
+1. Kubernetes Engine: Qwik Start
+2. Deploying Applications to GKE
+
+### Key Learnings
+- Created GKE cluster using `gcloud container clusters create`
+- Deployed applications using `kubectl apply -f deployment.yaml`
+- Exposed applications using LoadBalancer service
+- Scaled deployments using replicas
+
+### Files
+- `gke-deployments/deployment.yaml` - Deployment configuration
+- `gke-deployments/service.yaml` - Service configuration
+
+### Commands Used
+\`\`\`bash
+# Create cluster
+gcloud container clusters create my-cluster --num-nodes=3
+
+# Get credentials
+gcloud container clusters get-credentials my-cluster
+
+# Apply configurations
+kubectl apply -f deployment.yaml
+kubectl apply -f service.yaml
+
+# Verify
+kubectl get deployments
+kubectl get pods
+kubectl get services
+\`\`\`
+
+### Screenshots
+- [GKE Cluster Dashboard]
+- [Running Pods]
+- [External IP Access]
